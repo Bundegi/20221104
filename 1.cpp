@@ -4,6 +4,7 @@
 #include <stack>
 
 using namespace std;
+//1406 backjun 스택의 모든함수  비고의 1인걸 이용한 
 int main() {
 	fast;
 	stack<char> A, B;
@@ -45,6 +46,7 @@ int main() {
 		B.pop();
 	}
 }
+//scanf식으로 바꾸려다가 실패한 
 //char Dan[1000000] = {};
 //int main() {
 //	stack<char> A, B;
@@ -86,6 +88,7 @@ int main() {
 //	}
 //	printf("%s", st2);
 //}
+//구현은 되었지만 시간초과가 난 케이스
 //int main() {
 //	string A;
 //	int Su;
